@@ -20,7 +20,7 @@ var CAMPAIGNURLBUILDER = {
                         });
                 }
         },
-        init(website_el, campaign_el, medium_el, source_el, iframe_el, final_url_el) {
+        init(website_el, source_el, medium_el, campaign_el, iframe_el, final_url_el) {
                 this._inputs = [];
                 this._inputs.push(website_el);
                 this._inputs.push(source_el);
