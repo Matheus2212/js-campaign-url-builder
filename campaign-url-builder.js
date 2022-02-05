@@ -14,8 +14,8 @@ var CAMPAIGNURLBUILDER = {
                                 var website = t._inputs[0].value;
                                 var final_url = website;
                                 final_url += (t._inputs[1].value !== "" ? "?utm_source=" + encodeURIComponent(t._inputs[1].value) : "")
-                                final_url += (t._inputs[2].value !== "" ? "?utm_medium=" + encodeURIComponent(t._inputs[2].value) : "")
-                                final_url += (t._inputs[3].value !== "" ? "?utm_campaign=" + encodeURIComponent(t._inputs[3].value) : "")
+                                final_url += (t._inputs[2].value !== "" ? "&utm_medium=" + encodeURIComponent(t._inputs[2].value) : "")
+                                final_url += (t._inputs[3].value !== "" ? "&utm_campaign=" + encodeURIComponent(t._inputs[3].value) : "")
                                 t._final_url.value = final_url;
                         });
                 }
